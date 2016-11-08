@@ -1,5 +1,4 @@
 # Whitespectre Exercise  
----  
 This API requires PostgreSQL running of its default port and ruby 2.3.1. PostgresSQL is setup to use the deafault user configured during installation, to edit this configuration, checkout config/database.yml  
 
 ### Setup  
