@@ -17,6 +17,7 @@ group :development, :test do
   gem 'binding_of_caller', '~> 0.7.2'
   gem 'pry', '~> 0.10.4'
   gem 'factory_girl_rails', '~> 4.7'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.1'
 end
 
 group :development do
