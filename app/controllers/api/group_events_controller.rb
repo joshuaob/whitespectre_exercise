@@ -54,7 +54,7 @@ class Api::GroupEventsController < ApplicationController
   def group_event_attributes
     params.require(:data)
           .require(:attributes)
-          .permit(:name, :description, :starts_at, :ends_at, :location)
+          .permit(:name, :description, :starts_at, :ends_at, :location, :duration)
   end
 
 end
